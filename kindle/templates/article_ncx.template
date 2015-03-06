@@ -1,0 +1,8 @@
+                <navPoint class="article" id="item-{0}">
+                    <navLabel>
+                        <text>{1}</text>
+                    </navLabel>
+                    <content src="{2}.html"/>
+                    <mbp:meta name="description">{3}</mbp:meta>
+                    <mbp:meta name="author">{4}</mbp:meta>
+                </navPoint>

@@ -1,0 +1,6 @@
+            <navPoint class="section" id="{0}">
+                <navLabel>
+                    <text>{1}</text>
+                </navLabel>
+                <content src="{2}.html"/>
+{3}            </navPoint>

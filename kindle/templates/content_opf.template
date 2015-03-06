@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="{0}">
+    <metadata>
+        <dc-metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+            <dc:title>{1}</dc:title>
+            <dc:language>en-gb</dc:language>
+            <meta content="cover-image" name="cover" />
+            <dc:creator> {2}</dc:creator>
+            <dc:publisher>{3}</dc:publisher>
+            <dc:subject>{4}</dc:subject>
+            <dc:description>{5}</dc:description>
+            <dc:date>{6}</dc:date>
+        </dc-metadata>
+        <x-metadata>
+            <output content-type="application/x-mobipocket-subscription-magazine" encoding="utf-8" />
+        </x-metadata>
+    </metadata>
+    <manifest>
+{7}        <item href="contents.html" media-type="application/xhtml+xml" id="contents" />
+        <item href="nav-contents.ncx" media-type="application/x-dtbncx+xml" id="nav-contents" />
+    </manifest>
+    <spine toc="nav-contents">
+        <itemref idref="contents" />
+{8}    </spine>
+    <guide>
+        <reference href="contents.html" type="toc" title="Table of Contents" />
+    </guide>
+</package>
